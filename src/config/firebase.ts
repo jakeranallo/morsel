@@ -3,7 +3,7 @@ import {
   FIREBASE_AUTH_DOMAIN,
   FIREBASE_DATABASE_URL,
   FIREBASE_STORAGE_BUCKET,
-} from 'react-native-dotenv';
+} from '@env'
 
 const firebase = Object.freeze({
   apiKey: FIREBASE_API_KEY as string || '',

@@ -1,7 +1,7 @@
 import {
   FACEBOOK_APP_ID,
   FACEBOOK_APP_SECRET,
-} from 'react-native-dotenv';
+} from '@env'
 
 const facebook = Object.freeze({
   appId: FACEBOOK_APP_ID as string || '',

@@ -1,11 +1,7 @@
 {
   "expo": {
-    "name": "react-native-expo-typescript-boilerplate",
-    "description": "This project is really great.",
-    "slug": "react-native-expo-typescript-boilerplate",
-    "privacy": "public",
-    "sdkVersion": "31.0.0",
-    "platforms": ["ios", "android"],
+    "name": "newexpoapp",
+    "slug": "newexpoapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +18,15 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
